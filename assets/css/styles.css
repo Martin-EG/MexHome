@@ -1,0 +1,30 @@
+#hero {
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/hero-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+form#busquedaVentaORenta {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+};
+
+.card {
+  padding: 0!important;
+}
+
+.card-img-top {
+  height: 200px!important;
+}
+
+.card-description {
+  margin-top: 3px!important;
+  margin-bottom: 3px!important;
+}

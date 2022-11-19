@@ -1,0 +1,134 @@
+[
+  {
+    "tipo": "casa",
+    "titulo": "Casa moderna de dos pisos",
+    "cuartos": 4,
+    "precioEnRenta": 0,
+    "precioEnVenta": 300000,
+    "enRenta": false,
+    "enVenta": true,
+    "direccion": "Av. Primera #2121",
+    "imagen": "assets/images/casas/casaDosPisos1.jpg" 
+  },
+  {
+    "tipo": "casa",
+    "titulo": "Linda casa de dos pisos",
+    "cuartos": 6,
+    "precioEnRenta": 0,
+    "precioEnVenta": 1300000,
+    "enRenta": false,
+    "enVenta": true,
+    "direccion": "Av.Segunda #2828",
+    "imagen": "assets/images/casas/casaDosPisos2.jpg" 
+  },
+  {
+    "tipo": "casa",
+    "titulo": "Casa moderna de dos pisos para rentar",
+    "cuartos": 5,
+    "precioEnRenta": 0,
+    "precioEnVenta": 850000,
+    "enRenta": false,
+    "enVenta": true,
+    "direccion": "Av. Primera #3462",
+    "imagen": "assets/images/casas/casaDosPisos3.jfif" 
+  },
+  {
+    "tipo": "departamento",
+    "titulo": "Departamento ideal",
+    "cuartos": 2,
+    "precioEnRenta": 7500,
+    "precioEnVenta": 0,
+    "enRenta": true,
+    "enVenta": false,
+    "direccion": "Av.Python #3323",
+    "imagen": "assets/images/casas/departamento4.jfif"
+  },
+  {
+    "tipo": "departamento",
+    "titulo": "Departamento sencillo",
+    "cuartos": 2,
+    "precioEnRenta": 3600,
+    "precioEnVenta": 0,
+    "enRenta": true,
+    "enVenta": false,
+    "direccion": "Av.Java #1001",
+    "imagen": "assets/images/casas/departamento3.jfif"
+  },
+  {
+    "tipo": "departamento",
+    "titulo": "Departamento en un 5to piso",
+    "cuartos": 2,
+    "precioEnRenta": 4000,
+    "precioEnVenta": 0,
+    "enRenta": true,
+    "enVenta": false,
+    "direccion": "Av. Carbajal #3323",
+    "imagen": "assets/images/casas/departamento1.jpeg"
+  },
+  {
+    "tipo": "departamento",
+    "titulo": "Departamento en un 3to piso",
+    "cuartos": 2,
+    "precioEnRenta": 4500,
+    "precioEnVenta": 0,
+    "enRenta": true,
+    "enVenta": false,
+    "direccion": "Av. Carbajal #3323",
+    "imagen": "assets/images/casas/departamento1.jpeg"
+  },
+  {
+    "tipo": "departamento",
+    "titulo": "Departamento en 4to piso o 5to piso",
+    "cuartos": 3,
+    "precioEnRenta": 6400,
+    "precioEnVenta": 0,
+    "enRenta": true,
+    "enVenta": false,
+    "direccion": "Av. Salem #8497",
+    "imagen": "assets/images/casas/departamento2.avif"
+  },
+  {
+    "tipo": "casa",
+    "titulo": "Casa de tres pisos en principal",
+    "cuartos": 9,
+    "precioEnRenta": 0,
+    "precioEnVenta": 1800000,
+    "enRenta": false,
+    "enVenta": true,
+    "direccion": "Av. Duque de flores #2634",
+    "imagen": "assets/images/casas/casaTresPisos1.jpg"
+  },
+  {
+    "tipo": "casa",
+    "titulo": "Casa de tres pisos",
+    "cuartos": 7,
+    "precioEnRenta": 0,
+    "precioEnVenta": 1980000,
+    "enRenta": false,
+    "enVenta": true,
+    "direccion": "Av. Duque de flores #8735",
+    "imagen": "assets/images/casas/casaTresPisos2.jpg"
+  },
+  {
+    "tipo": "casa",
+    "titulo": "Casa de un piso sencilla",
+    "cuartos": 3,
+    "precioEnRenta": 2500,
+    "precioEnVenta": 0,
+    "enRenta": true,
+    "enVenta": false,
+    "direccion": "Av. Salem #6363",
+    "imagen": "assets/images/casas/casaUnPiso1.jpeg"
+  },
+  {
+    "tipo": "casa",
+    "titulo": "Casa de un piso sencilla",
+    "cuartos": 3,
+    "precioEnRenta": 2500,
+    "precioEnVenta": 0,
+    "enRenta": true,
+    "enVenta": false,
+    "direccion": "Av. Salem #6363",
+    "imagen": "assets/images/casas/casaUnPiso1.jpeg"
+  }
+]
