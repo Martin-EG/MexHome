@@ -13,15 +13,15 @@
 <body>
   <header>
     <?php
-    include_once 'components/navbar.php';
-    $inmuebles = json_decode(file_get_contents("assets/data/inmuebles.json"), true);
+    include_once 'components/navbar.php'; //Include Navbar component
+    $inmuebles = json_decode(file_get_contents("assets/data/inmuebles.json"), true); //Get json file and decode it
     ?>
     <div id='hero'>
       <p class="fw-bolder fs-2 mt-3 mb-5">Encuentra el hogar de tus sueños</p>
 
       <!-- <button type="button" class="btn btn-warning btn-lg">Vender</button> -->
       <?php
-      include_once 'components/buscador.php';
+      include_once 'components/buscador.php'; //Include Buscador form
       ?>
     </div>
   </header>
@@ -30,22 +30,22 @@
     <h3 class='text-center fw-bold'>Algunos de nuestros inmuebles disponibles</h3>
     <div class="row g-2">
       <?php
-      $cantidadDeInmuebles = count($inmuebles) - 1;
-      $tresNumerosRandom = array();
-      while (count($tresNumerosRandom) <= 3) {
-        $numeroRandom = rand(0, $cantidadDeInmuebles);
-        if (!in_array($numeroRandom, $tresNumerosRandom)) {
+      $cantidadDeInmuebles = count($inmuebles) - 1; //Get total count of elements less one
+      $tresNumerosRandom = array(); // Create an array for three random numbers
+      while (count($tresNumerosRandom) <= 3) { // Loop three different and random numbers
+        $numeroRandom = rand(0, $cantidadDeInmuebles); //Get a random number from 0 to the quantity of items
+        if (!in_array($numeroRandom, $tresNumerosRandom)) { // If it doesn't exist add in the array
           array_push($tresNumerosRandom, $numeroRandom);
         }
       }
 
-      for ($i = 0; $i < 3; $i++) {
+      for ($i = 0; $i < 3; $i++) { //Shows three random real states
         $posicionRandom = $tresNumerosRandom[$i];
-        $mostrarPrecioAlMes = $inmuebles[$posicionRandom]['enRenta'] ? 'al mes' : '';
-        $enRenta = $inmuebles[$posicionRandom]['enRenta'];
+        $enRenta = $inmuebles[$posicionRandom]['enRenta']; //Check if real state is for rent 
+        $mostrarPrecioAlMes = $enRenta ? 'al mes' : '';
 
         $precioField = '';
-        if ($enRenta)
+        if ($enRenta) //Get the field of price for rent or sale
           $precioField = 'precioEnRenta';
         else
           $precioField = 'precioEnVenta';
