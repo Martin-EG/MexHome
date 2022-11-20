@@ -18,7 +18,7 @@
     $inmueblesFiltrados = array(); //Create an empty array to store later the filter real states
 
     //Get post values, checking if they exist and if not just store an empty string
-    $ventaORenta = isset($_POST['ventaORenta']) ? $_POST['ventaORenta'] : '';
+    $ventaORenta = isset($_POST['ventaORenta']) ? $_POST['ventaORenta'] : 'venta';
     $tipoDeHogar = isset($_POST['tipoDeHogar']) ? $_POST['tipoDeHogar'] : '';
     $cuartos = isset($_POST['cuartos']) ? $_POST['cuartos'] : '';
     $precioMax = isset($_POST['precioMax']) ? $_POST['precioMax'] : '';
