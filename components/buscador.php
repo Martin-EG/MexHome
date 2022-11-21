@@ -9,7 +9,7 @@ $precioMax = isset($_POST['precioMax']) ? $_POST['precioMax'] : '';
 <button type="button" class="btn btn-warning btn-lg" id="comprarBtn">Comprar</button>
 
 <div class="container">
-  <form class="mt-3" action="buscar.php" method="POST" id="busquedaVentaORenta">
+  <form class="mt-3" action="resultados.php" method="POST" id="busquedaVentaORenta">
     <div class="row">
       <input type="hidden" name="ventaORenta" id="ventaORenta" value="<?php echo $ventaORenta ?>">
       <div class="col-4">
